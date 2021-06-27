@@ -1,0 +1,72 @@
+@import "variables.less";
+.intro {
+    // width: 1340px;
+    width: 100%;
+    height: 650px;
+    // padding: 10px;
+    margin: 0 auto;
+    position: relative;
+
+    &__imagen {
+        // width: 1320px;
+        width: 100%;
+        position: absolute;
+
+        img {
+            width: 100%;
+            height: 624px;
+            object-fit: cover;
+        }
+    }
+
+    &__contenido {
+        width: 50%;
+        margin: 0 auto;
+        position: absolute;
+        top: 156px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: @color__claro;
+    }
+
+    &__categoria {
+        font-family: @fuente__2;
+        text-transform: uppercase;
+        font-size: 2rem;
+        color: fade(@color__claro, 50%);
+    }
+
+    &__titulo {
+        font-family: @fuente__2;
+        text-transform: uppercase;
+        font-size: 5rem;
+    }
+
+    &__autor {
+        width: 150px;
+        margin: 0 auto;
+        position: absolute;
+        top: 390px;
+        left: 0;
+        right: 0;
+        color: @color__claro;
+        font-size: 1.8rem;
+
+        img {
+            width: 60px;
+            height: 50px;
+            float: left;
+            padding-right: 10px;
+            border-radius: 10em;
+        }
+
+        span {
+            display: inline-block;
+        }
+
+        &-titulo {
+            color: fade(@color__claro, 50%);
+        }
+    }
+}

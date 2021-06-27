@@ -1,0 +1,15 @@
+.articulo--principal {
+  max-width: 660px;
+  margin: 0 auto;
+}
+.articulo--principal__intro {
+  font-size: 2.6rem;
+}
+.articulo--principal h2 {
+  margin: 40px 0;
+  font-size: 5rem;
+  text-align: center;
+}
+.articulo--principal h3 {
+  color: #8841da;
+}
