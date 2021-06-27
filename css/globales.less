@@ -11,11 +11,23 @@ html {
      color: @color__primario;
 }
 
+body.active {
+    background-color: @color__primario;
+    p {
+        color: @color__claro;
+    }
+    .caja__contenido {
+        background-color: @color__secundario;
+        color: @color__claro;
+        a {
+            color: @color__claro;
+        }
+    }
+}
+
 h1, h2, h3 {
-    font-family: @fuente__2;
-    text-transform: uppercase;
     margin: 0;
-    font-size: 2rem;
+    .oswald;
 }
 
 p {
