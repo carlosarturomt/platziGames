@@ -23,11 +23,18 @@
         width: 50%;
         margin: 0 auto;
         position: absolute;
-        top: 156px;
+        // top: 156px;
+        top: 23.7%;
         left: 0;
         right: 0;
         text-align: center;
         color: @color__claro;
+        @media (max-width: 500px) {
+            width: 90%;
+            .intro__titulo {
+                font-size: @fuente__base + 2%;
+            }
+        }
     }
 
     &__categoria {
@@ -45,7 +52,8 @@
         width: 150px;
         margin: 0 auto;
         position: absolute;
-        top: 390px;
+        // top: 390px;
+        top: 60%;
         left: 0;
         right: 0;
         color: @color__claro;

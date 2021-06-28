@@ -13,6 +13,11 @@
   display: flex;
   justify-content: space-evenly;
 }
+@media (max-width: 500px) {
+  .contenedor--cajas {
+    flex-wrap: wrap;
+  }
+}
 .caja {
   margin: 0 1%;
   width: 31.3%;
@@ -42,4 +47,10 @@
   font-size: 1.8rem;
   font-weight: bold;
   text-transform: uppercase;
+}
+@media (max-width: 500px) {
+  .caja {
+    width: 90%;
+    margin-bottom: 10%;
+  }
 }
