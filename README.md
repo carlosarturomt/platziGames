@@ -9,6 +9,7 @@ Uso de los Preprocesadores:
 - SASS.
 - STYLUs.
 - Metodología BEM.
+- Responsive Design.
 
 
 ![](https://static.platzi.com/media/landing-projects/proyecto-preprocesadores.png)
