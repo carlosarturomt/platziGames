@@ -1,0 +1,15 @@
+// V A R I A B L E S
+$fuente1: 'Lato', sans-serif;
+$fuente2: 'Oswald', sans-serif;
+$color__primario: #333333;
+$color__claro: #ffffff; 
+$color__secundario: #8841DA;
+$color__variacion: #3f579a;
+
+// M I X I N S
+@mixin caja {
+    border-radius: 20px;
+    box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.50);
+    color: $color__primario;
+    background-color: $color__claro;
+}

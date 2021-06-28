@@ -1,0 +1,41 @@
+.perfil {
+  width: 50%;
+  padding-top: 50px;
+  color: #ffffff;
+  background-color: #8841DA;
+}
+.perfil__avatar {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50em;
+}
+.perfil__nombre, .perfil__minibio h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+}
+.perfil__titulo, .perfil__minibio h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.perfil__boton {
+  display: block;
+  width: 100px;
+  height: 40px;
+  margin: 15px auto;
+  padding-top: 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+}
+
+.perfil__minibio {
+  margin: 0 auto;
+  padding-top: 20px;
+}
