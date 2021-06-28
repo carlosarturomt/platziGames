@@ -13,3 +13,8 @@ $color__variacion: #3f579a;
     color: $color__primario;
     background-color: $color__claro;
 }
+
+// F U N C I O N E S
+@function get-opacity($color, $nivel) {
+    @return rgba($color, $nivel);
+}

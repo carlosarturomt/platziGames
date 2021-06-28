@@ -20,19 +20,22 @@
 		text-align: center;
 		font-weight: bold;
 		font-size: 1.2rem;
+		color: get-opacity($color__claro, .50);
 	}
 	&__boton {
 		display: block;
 		width: 100px;
 		height: 40px;
 		margin: 15px auto;
-		padding-top: 15px;
+		padding: 7.5px;
 		border-radius: 20px;
 		text-decoration: none;
 		text-transform: uppercase;
 		text-align: center;
 		font-family: $fuente2;
-		color: $color__claro;
+		font-size: 1.2rem;
+		color: get-opacity($color__claro, .90);
+		border: 2px solid get-opacity($color__claro, .30);
 	}
 }
 
