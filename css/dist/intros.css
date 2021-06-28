@@ -33,11 +33,13 @@
   color: #ffffff;
 }
 @media (max-width: 500px) {
-  .intro__contenido {
-    width: 90%;
-  }
   .intro__contenido .intro__titulo {
     font-size: 3.8rem;
+  }
+}
+@media (max-width: 950px) {
+  .intro__contenido {
+    width: 90%;
   }
 }
 .intro__categoria {
