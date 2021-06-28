@@ -1,0 +1,30 @@
+.galeria {
+  width: 50%;
+  height: 250px;
+  margin: 0 auto;
+  padding: 20px 0 0 30px;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.5);
+  color: #333333;
+  background-color: #ffffff;
+}
+.galeria__foto-principal {
+  float: left;
+  margin-right: 10px;
+}
+.galeria__fotos-adicionales {
+  height: 70px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.galeria h2 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+  font-weight: "Oswald", sans-serif;
+}
+.galeria img {
+  border-radius: 10px;
+}
