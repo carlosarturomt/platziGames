@@ -1,0 +1,46 @@
+h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.articulos {
+  width: 45%;
+  padding: 50px;
+}
+@media (max-width: 500px) {
+  .articulos {
+    width: 100%;
+    padding: 50px 5%;
+  }
+}
+
+.articulo {
+  margin-bottom: 50px;
+  border-bottom: 3px solid #8841DA;
+}
+.articulo__categoria {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #8841DA;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+.articulo__titulo {
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+.articulo__descripcion {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}

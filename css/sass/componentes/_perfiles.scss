@@ -10,10 +10,9 @@
 		border-radius: 50em;	
 	}
 	&__nombre {
-		text-transform: uppercase;
 		text-align: center;
 		font-size: 2rem;
-		font-family: $fuente2;
+		@include titulos($fuente2);
 	}
 	&__titulo {
 		text-transform: uppercase;
@@ -30,12 +29,15 @@
 		padding: 7.5px;
 		border-radius: 20px;
 		text-decoration: none;
-		text-transform: uppercase;
 		text-align: center;
-		font-family: $fuente2;
 		font-size: 1.2rem;
-		color: get-opacity($color__claro, .90);
+		color: $color__claro;
+		background-color: get-opacity($color__primario, .20);
 		border: 2px solid get-opacity($color__claro, .30);
+		@include titulos($fuente2);
+	}
+    @media (max-width: 500px) {
+		width: 100%;
 	}
 }
 

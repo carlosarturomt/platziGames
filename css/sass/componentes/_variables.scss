@@ -13,8 +13,25 @@ $color__variacion: #3f579a;
     color: $color__primario;
     background-color: $color__claro;
 }
+// Dentro del mixin se va definir la condicional
+@mixin titulos($fuente) {
+    @if $fuente==$fuente1 {
+        font-family: $fuente1;
+    } @else {
+        font-family: $fuente2;
+        text-transform: uppercase;
+    }
+}
 
 // F U N C I O N E S
 @function get-opacity($color, $nivel) {
     @return rgba($color, $nivel);
+}
+
+// L O O P S
+@each $header, $size in (h1: 30px, h2: 25px, h3: 20px) {
+    #{$header} {
+        font-size: $size;
+        margin: 0;
+    }
 }

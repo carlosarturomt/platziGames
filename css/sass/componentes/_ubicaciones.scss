@@ -22,5 +22,9 @@
 		text-transform: uppercase;
 		font-size: 1.2rem;
 		font-size: $fuente2;
+		color: get-opacity($color__primario, .50);
+	}
+	@media (max-width: 500px) {
+		width: 80%;
 	}
 }
