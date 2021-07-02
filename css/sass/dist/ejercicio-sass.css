@@ -31,6 +31,11 @@ main {
   height: 100%;
 }
 
+body.active {
+  background-color: #333333;
+  color: #ffffff;
+}
+
 h1 {
   font-size: 30px;
   margin: 0;

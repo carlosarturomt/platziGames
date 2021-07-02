@@ -1,0 +1,38 @@
+// V A R I A B L E S 
+fuente1 = 'Lato', sans-serif
+fuente2 = 'Oswald', sans-serif
+color__primario = #333333
+color__secundario = #8841A1
+color__claro = #ffffff
+
+// M I X I N S
+contenedor()
+	display: flex
+	flex-wrap: wrap
+	width 96%
+	margin: 0 auto
+	padding: 30px 0
+
+caja--sombra()
+	background-color: color__claro
+	box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.20)
+
+// F U N C I O N E S
+opacidad(color, cantidad)
+	alpha(color, cantidad)
+
+// L O O P S
+for header in 3 2 1
+	h{header}
+		font-size: 3.5rem - (.5*header)
+		margin: 0
+
+// C O N D I C I O N A L  E N  F U N C I O N 
+titulos(fuente)
+	if fuente == fuente1
+		font-family: fuente1
+	else 
+		font-family: fuente2
+		text-transform: uppercase
+		font-weight: 500
+	
