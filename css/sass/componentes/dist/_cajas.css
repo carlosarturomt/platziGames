@@ -1,0 +1,54 @@
+h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.contenedor--cajas {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.caja {
+  max-width: 430px;
+  border-radius: 20px;
+  box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.5);
+  color: #333333;
+  background-color: #ffffff;
+}
+.caja__contenido {
+  padding: 25px;
+  background-color: #ffffff;
+}
+.caja__categoria {
+  color: #8841DA;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+.contenedor--cajas .caja a {
+  text-decoration: none;
+  color: #3f579a;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+.contenido {
+  margin-bottom: 40px;
+  justify-content: space-evenly;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}

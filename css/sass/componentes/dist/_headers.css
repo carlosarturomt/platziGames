@@ -1,0 +1,62 @@
+h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.header--principal {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px 20px 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.nav--header ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 35px;
+}
+.nav--header ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+.nav--header ul a {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #3f579a;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+.header__busqueda {
+  display: flex;
+  margin-left: auto;
+  padding-top: 35px;
+}
+.header__busqueda:hover {
+  text-decoration: none;
+}
+.header__busqueda i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #8841DA;
+}
+.header__busqueda span {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #3f579a;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}

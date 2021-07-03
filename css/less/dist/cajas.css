@@ -9,7 +9,7 @@
 }
 .contenedor--cajas {
   width: 90vw;
-  margin: 0 auto;
+  margin: 0 auto 5% auto;
   display: flex;
   justify-content: space-evenly;
 }

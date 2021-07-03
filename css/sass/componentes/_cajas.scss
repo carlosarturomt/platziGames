@@ -1,0 +1,35 @@
+@import "variables";
+.contenedor--cajas {
+	max-width: 1400px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.caja {
+	max-width: 430px;
+	@include caja;
+	&__contenido {
+		padding: 25px;
+		background-color: $color__claro;		
+	}
+	&__categoria {
+		color: $color__secundario;
+		@include titulos($fuente2);
+	}
+}
+
+.contenedor--cajas .caja a {
+	text-decoration: none;	
+	color: $color__variacion;
+	@include titulos($fuente2);
+}
+
+.contenido {
+	margin-bottom: 40px;
+	justify-content: space-evenly;
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+	padding: 30px 0;
+} 
