@@ -35,3 +35,10 @@ body.active {
   background-color: #333333;
   color: #ffffff;
 }
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+a:-webkit-any-link:hover {
+  text-decoration: underline;
+}

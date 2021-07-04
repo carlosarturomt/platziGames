@@ -21,3 +21,10 @@ body.active {
     background-color: $color__primario;
 	color: $color__claro;
 }
+
+a:-webkit-any-link {
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}

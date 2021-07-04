@@ -7,7 +7,7 @@
 }
 
 .caja {
-	max-width: 430px;
+	max-width: 400px;
 	@include caja;
 	&__contenido {
 		padding: 25px;
@@ -16,6 +16,9 @@
 	&__categoria {
 		color: $color__secundario;
 		@include titulos($fuente2);
+	}
+	img {
+		width: 100%;
 	}
 }
 
@@ -29,7 +32,76 @@
 	margin-bottom: 40px;
 	justify-content: space-evenly;
 	display: flex;
-	width: 90%;
+	width: 95%;
 	margin: 0 auto;
 	padding: 30px 0;
 } 
+
+.caja--con-fondo {
+	display: block;
+	box-shadow: none;
+	position: relative;
+	overflow: hidden;
+	background-color: $color__primario;
+	img {
+		display: block;
+		max-width: 100%;
+		max-height: auto;
+		position: absolute;
+		opacity: .5;
+		object-fit: contain;
+	}
+	&__contenido {
+		padding: 20px;
+		position: absolute;
+		text-align: center;
+		color: $color__claro;
+		p {
+			color: $color__claro;
+			@include font-size(28px);
+		}
+		h2 {
+			font-size: 2.8rem;
+			line-height: 3rem;
+			@include titulos($fuente2);
+		}	
+		h3 {
+			color: $color__claro;
+		}
+	}
+	&__categoria {
+		display: block;
+		width: auto;
+		max-width: 100px;
+		margin: 0 auto;
+		text-align: center;
+		border-radius: 2.5px;
+		background-color: $color__secundario;
+		color: $color__claro;
+		@include font-size(28px);
+		@include titulos($fuente2);
+	}
+}
+
+.caja--grande {
+	max-width: 1000px;
+	height: 550px;
+	margin-right: 20px;
+	h2 {
+		@include titulos($fuente2);
+		@include font-size(78px);
+	}	
+	.caja--con-fondo__contenido {
+		padding-top: 200px;
+	}
+}
+
+.caja--mediana {
+	max-width: 600px;
+	height: 250px;
+}
+
+.caja--pequena {
+	max-width: 300px;
+	height: 250px;
+}

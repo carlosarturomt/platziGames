@@ -20,7 +20,19 @@ $color__variacion: #3f579a;
     } @else {
         font-family: $fuente2;
         text-transform: uppercase;
+        font-weight: 600;
     }
+}
+// Mixin para fuentes responsivas
+@function calculateRem($size){
+	$remSize: $size / 16px;
+	@return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+	font-size: $size;
+	font-size: calculateRem($size);
+	line-height: calculateRem($size)*1.5;	
 }
 
 // F U N C I O N E S
