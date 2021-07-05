@@ -1,0 +1,29 @@
+@import "variables";
+.sidebar--listado {
+	max-width: 300px;
+	padding: 20px;
+	margin-bottom: 15%;
+	@include caja();
+	h3 {
+		@include titulos($fuente2);
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		padding: 10px 0;
+		margin: 10px 0;
+		border-top: 1px solid #ccc;
+		list-style: none;
+	}
+	a {
+		display: flex;
+		padding: 10px 20px;
+		color: $color__primario;
+	}
+	&__numero {
+		margin-right: 20px;
+		color: get-opacity($color__primario, .5);
+	}
+}

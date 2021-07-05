@@ -1,0 +1,21 @@
+@import "variables";
+.banner--homepage {
+	width: 300px;
+	padding: 40px;
+	margin-bottom: 20px;
+	color: $color__claro;
+	background-color: $color__secundario;
+	h3 {
+		@include titulos($fuente2);
+	}
+	p {
+		padding-bottom: 40px;
+	}
+	.button {
+		padding: 7.5px 15px;
+		border: 2px solid $color__claro;
+		font-size: 1.6rem;
+		border-radius: 25px;
+		@include titulos($fuente2);
+	}
+}

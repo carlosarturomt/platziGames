@@ -14,17 +14,20 @@
     <body></body>
   </html>
   <body>
-    <header class="header--principal">
+    <header class="header--principal" id="overlay">
       <div class="logo logo--header"><img src="images/logo--header.svg"></div>
-      <nav class="nav--header">
-        <ul>
-          <li><a href="html/articulo.html">Playstation</a></li>
-          <li><a href="html/articulo.html">Xbox</a></li>
-          <li><a href="html/articulo.html">Nintendo</a></li>
-          <li><a href="html/articulo.html">PC</a></li>
-          <li><a href="html/articulo.html">Mobile</a></li>
-        </ul>
-      </nav><a class="header__busqueda" href="html/resultados-busqueda.html"><i class="fas fa-search"></i><span>Search</span></a>
+      <div id="sidebar">
+        <nav class="nav--header">
+          <ul>
+            <li><a href="html/articulo.html">Playstation</a></li>
+            <li><a href="html/articulo.html">Xbox</a></li>
+            <li><a href="html/articulo.html">Nintendo</a></li>
+            <li><a href="html/articulo.html">PC</a></li>
+            <li><a href="html/articulo.html">Mobile</a></li>
+          </ul>
+        </nav><a class="header__busqueda" href="html/resultados-busqueda.html"><i class="fas fa-search"></i><span>Search</span></a>
+      </div>
+      <!-- <div id="toggle">icon</div> -->
     </header>
     <main class="contenedor--home"><a class="caja--con-fondo caja--grande">
           <div class="caja__imagen"><img src="images/cyberpunk-2077.jpg"></div>
@@ -129,4 +132,5 @@
       </div>
     </footer>
   </body>
+  <!-- <script src="js/toggle.js"></script> -->
 </html>

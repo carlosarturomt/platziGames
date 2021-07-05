@@ -26,9 +26,6 @@
 .sidebar--listado {
 	@include grid-row(3, 5);
 	@include grid-column(1, 2);
-	h3 {
-		@include titulos($fuente2);
-	}
 }
 
 .caja-zelda {

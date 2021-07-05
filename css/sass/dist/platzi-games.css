@@ -963,6 +963,20 @@ h3 {
   text-transform: uppercase;
   font-weight: 600;
 }
+.caja--con-fondo__stats {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  bottom: 10px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.caja--con-fondo__stats li {
+  margin: 0 10px;
+  display: inline-block;
+}
 
 .caja--grande {
   max-width: 1000px;
@@ -1246,11 +1260,6 @@ h3 {
   -ms-grid-column-span: 1;
   grid-column: 1/2;
 }
-.sidebar--listado h3 {
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
-  font-weight: 600;
-}
 
 .caja-zelda {
   -ms-grid-row: 3;
@@ -1295,4 +1304,203 @@ h3 {
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
   grid-column: 4/5;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.sidebar--listado {
+  max-width: 300px;
+  padding: 20px;
+  margin-bottom: 15%;
+  border-radius: 20px;
+  box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.5);
+  color: #333333;
+  background-color: #ffffff;
+}
+.sidebar--listado h3 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.sidebar--listado ul {
+  margin: 0;
+  padding: 0;
+}
+.sidebar--listado li {
+  padding: 10px 0;
+  margin: 10px 0;
+  border-top: 1px solid #ccc;
+  list-style: none;
+}
+.sidebar--listado a {
+  display: flex;
+  padding: 10px 20px;
+  color: #333333;
+}
+.sidebar--listado__numero {
+  margin-right: 20px;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.banner--homepage {
+  width: 300px;
+  padding: 40px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  background-color: #8841DA;
+}
+.banner--homepage h3 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.banner--homepage p {
+  padding-bottom: 40px;
+}
+.banner--homepage .button {
+  padding: 7.5px 15px;
+  border: 2px solid #ffffff;
+  font-size: 1.6rem;
+  border-radius: 25px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .contenedor--home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner--homepage {
+    margin: 5% 0;
+    width: 80%;
+    position: relative;
+  }
+
+  .sidebar--listado {
+    width: 100%;
+    position: relative;
+    margin: 5% 0 10% 0;
+  }
+
+  .caja-zelda {
+    width: 100%;
+    position: relative;
+    margin: 5% 0;
+  }
+
+  .caja-rdr2 {
+    width: 100%;
+    position: relative;
+    margin: 10% 0 5% 0;
+  }
+
+  .caja-ff {
+    width: 100%;
+    position: relative;
+    margin: 5% 0;
+  }
+
+  .caja-fortnite {
+    width: 100%;
+    position: relative;
+    margin: 5% 0;
+  }
+
+  .caja-xbox {
+    width: 100%;
+    position: relative;
+    margin: 5% 0;
+  }
+
+  .caja--con-fondo {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+  .caja--con-fondo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  .caja--con-fondo__contenido {
+    width: 100%;
+    position: relative;
+    padding-top: 10%;
+  }
+  .caja--con-fondo__stats {
+    width: 100%;
+    position: relative;
+  }
+
+  .caja--grande {
+    width: 100%;
+    margin: 0;
+    position: relative;
+  }
+  .caja--grande h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .caja--grande .caja--con-fondo__contenido {
+    padding-top: 125px;
+  }
+
+  .nav--social ul {
+    flex-wrap: wrap;
+  }
+
+  .nav--header ul {
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+  }
+
+  .nav--header ul li {
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 0px;
+  }
+
+  .header__busqueda {
+    justify-content: center;
+    padding-top: 0px;
+  }
 }

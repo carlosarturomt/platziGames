@@ -1,0 +1,109 @@
+@media screen and (max-width: 600px) {
+  .contenedor--home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner--homepage {
+    margin: 5% 0;
+    width: 80%;
+    position: relative;
+  }
+
+  .sidebar--listado {
+    width: 100%;
+    position: relative;
+    margin: 5% 0 10% 0;
+  }
+
+  .caja-zelda {
+    width: 100%;
+    position: relative;
+    margin: 5% 0;
+  }
+
+  .caja-rdr2 {
+    width: 100%;
+    position: relative;
+    margin: 10% 0 5% 0;
+  }
+
+  .caja-ff {
+    width: 100%;
+    position: relative;
+    margin: 5% 0;
+  }
+
+  .caja-fortnite {
+    width: 100%;
+    position: relative;
+    margin: 5% 0;
+  }
+
+  .caja-xbox {
+    width: 100%;
+    position: relative;
+    margin: 5% 0;
+  }
+
+  .caja--con-fondo {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+  .caja--con-fondo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  .caja--con-fondo__contenido {
+    width: 100%;
+    position: relative;
+    padding-top: 10%;
+  }
+  .caja--con-fondo__stats {
+    width: 100%;
+    position: relative;
+  }
+
+  .caja--grande {
+    width: 100%;
+    margin: 0;
+    position: relative;
+  }
+  .caja--grande h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .caja--grande .caja--con-fondo__contenido {
+    padding-top: 125px;
+  }
+
+  .nav--social ul {
+    flex-wrap: wrap;
+  }
+
+  .nav--header ul {
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+  }
+
+  .nav--header ul li {
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 0px;
+  }
+
+  .header__busqueda {
+    justify-content: center;
+    padding-top: 0px;
+  }
+}
